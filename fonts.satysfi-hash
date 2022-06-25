@@ -1,0 +1,10 @@
+{
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Bold":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Bold.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-ExtraLight":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-ExtraLight.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Light":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Light.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Medium":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Medium.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Regular":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Regular.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-SemiBold":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-SemiBold.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Text":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Text.otf"}>,
+  "fonts-ibm-plex-sans-jp:IBMPlexSansJP-Thin":<"Single":{"src":"dist/fonts/fonts-ibm-plex-sans-jp/IBMPlexSansJP-Thin.otf"}>
+}

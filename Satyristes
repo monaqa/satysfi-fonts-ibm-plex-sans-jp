@@ -1,0 +1,49 @@
+;; For Satyrographos 0.0.2 series
+(version 0.0.2)
+
+;; Library declaration
+(library
+  ;; Library name
+  (name "fonts-ibm-plex-sans-jp")
+  ;; Library version
+  (version "1.0.0")
+  ;; Files
+  (sources
+    ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
+     (font "IBMPlexSansJP-Bold.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Bold.otf")
+     (font "IBMPlexSansJP-ExtraLight.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-ExtraLight.otf")
+     (font "IBMPlexSansJP-Light.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Light.otf")
+     (font "IBMPlexSansJP-Medium.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Medium.otf")
+     (font "IBMPlexSansJP-Regular.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Regular.otf")
+     (font "IBMPlexSansJP-SemiBold.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-SemiBold.otf")
+     (font "IBMPlexSansJP-Text.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Text.otf")
+     (font "IBMPlexSansJP-Thin.otf" "ibm-plex-sans-jp/OpenType/IBM-Plex-Sans-JP/hinted/IBMPlexSansJP-Thin.otf")
+     ))
+  ;; OPAM package file
+  (opam "satysfi-fonts-ibm-plex-sans-jp.opam")
+  ;; Dependency
+  )
+
+;; Library doc declaration
+(libraryDoc
+  ;; Library doc name
+  (name "fonts-ibm-plex-sans-jp-doc")
+  ;; Library version
+  (version "1.0.0")
+  ;; Working directory to build docs
+  (workingDirectory "doc")
+  ;; Build commands
+  (build
+    ;; Run SATySFi
+    ((satysfi "manual.saty" "-o" "manual.pdf")))
+  ;; Files
+  (sources
+    ((doc "manual.pdf" "doc/manual.pdf")))
+  ;; OPAM package file
+  (opam "satysfi-fonts-ibm-plex-sans-jp-doc.opam")
+  ;; Dependency
+  (dependencies
+    ((fonts-ibm-plex-sans-jp ()) ; the main library
+     (dist ()) ; Standard library
+     (easytable ())
+    )))
